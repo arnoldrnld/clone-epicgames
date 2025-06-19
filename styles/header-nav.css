@@ -120,13 +120,16 @@ header {
 }
 
 nav {
+  position: sticky;
+  top: 0;
+
   display: flex;
   align-items: center;
   gap: 18px;
 
-
   height: 100px;
-  margin: 0 190px;
+  padding: 0 190px;
+  background-color: rgb(16, 16, 20);
 }
 
 .search-box {
@@ -160,7 +163,7 @@ nav {
 }
 
 .search-bar::placeholder {
-  color: #B1B1B3;
+  color: #b1b1b3;
   font-family: inter, arial;
 }
 
@@ -179,9 +182,7 @@ nav {
   transition: color 0.15s ease;
 }
 
-.nav-item:hover, .nav-item:first-of-type{
+.nav-item:hover,
+.nav-item:first-of-type {
   color: rgb(250, 250, 250);
 }
-
-
-
