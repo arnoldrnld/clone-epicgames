@@ -7,3 +7,4 @@ A frontend clone of the Epic Games UI built using HTML and CSS.
 
 ### 🚀 Features (so far)
 - header
+- hero section (need a bit more adjustment)
