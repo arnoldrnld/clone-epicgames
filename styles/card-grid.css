@@ -1,0 +1,87 @@
+.s-card-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.s-card-column {
+  flex: 1;
+
+  padding-right: 16px;
+  margin-right: 16px;
+
+  border-right: 1px solid rgb(64, 64, 68);
+}
+
+.s-card-column:last-child {
+  border: none;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+.s-card-column > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.s-card-column .arrow-btn {
+  width: 22px;
+  transform: rotate(-90deg);
+  padding-right: 10px;
+}
+
+.s-card-list {
+  margin-top: 16px;
+}
+
+.s-card {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  padding: 12px;
+  border-radius: 8px;
+
+  transition: all 0.15s ease;
+}
+
+.s-card:hover {
+  background-color: rgb(32, 32, 36);
+}
+
+.s-card .thumbnail {
+  max-width: 60px;
+  max-height: 80px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative;
+}
+
+.wishlist-icon {
+  position: absolute;
+  background-color: black;
+  border-radius: 50%;
+  width: 20px;
+  top: 5px;
+  right: 3px;
+  opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.s-card:hover .wishlist-icon {
+  opacity: 1;
+}
+
+.s-card .thumbnail img:last-child {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.s-card .title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.s-card .price {
+  margin-top: 4px;
+}
