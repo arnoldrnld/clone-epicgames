@@ -1,6 +1,7 @@
 .section-header {
   display: flex;
   justify-content: space-between;
+  font-size: x-large;
 }
 
 .section-header .title {
@@ -45,9 +46,6 @@
 .m-card {
   flex: 1;
   max-width: 214px;
-
-  display: flex;
-  flex-direction: column;
 }
 
 .m-card .thumbnail {
@@ -120,7 +118,7 @@
   border-radius: 16px;
 }
 
-.l-card .thumbnail .overlay{
+.l-card .thumbnail .overlay {
   position: absolute;
   inset: 0;
   background-color: rgb(244, 244, 244);
@@ -174,3 +172,76 @@
 .goto-icon {
   width: 14px;
 }
+
+.free-games {
+  background-color: rgb(32, 32, 36);
+  padding: 40px;
+  border-radius: 12px;
+}
+
+.gift-icon {
+  width: 32px;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.free-games .signin-button {
+  background-color: transparent;
+  border: 1px solid rgb(110, 110, 112);
+}
+
+.free-card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 28px;
+}
+
+.free-card .thumbnail {
+  border-radius: 8px 8px 0 0;
+  overflow: hidden;
+}
+
+.free-tag {
+  margin-top: -5px;
+  font-family: Inter, Arial;
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+  border-radius: 0 0 5px 5px;
+  padding: 5px;
+}
+
+.free-tag.one {
+  background-color: rgb(38, 187, 255);
+
+}
+
+.free-tag.two {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.free-games .thumbnail {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.free-games .thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.free-card .title {
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.free-games .subtitle {
+  margin-top: 8px;
+  font-size: 16px;
+  color: rgb(177, 177, 179);
+}
+
