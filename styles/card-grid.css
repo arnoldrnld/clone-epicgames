@@ -85,3 +85,17 @@
 .s-card .price {
   margin-top: 4px;
 }
+
+.xl-card-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.xl-card-list .l-card {
+  flex: 1;
+}
+
+.xl-card-list .l-card .thumbnail {
+  aspect-ratio: 16 / 9;
+}
