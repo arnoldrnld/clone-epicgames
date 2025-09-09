@@ -44,3 +44,9 @@ main {
 
   gap: 72px;
 }
+
+main>p:last-of-type {
+  font-size: 12px;
+  border-top: 1.5px solid rgb(52, 52, 55);
+  padding-top: 24px;
+}
